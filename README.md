@@ -61,3 +61,7 @@ n_valoivenda float(10,2),
 n_qtdeivenda int,
 n_descivenda float(10,2),
 primary key(n_numeivenda));
+
+alter table comforne add CNPJ varchar(14);
+
+alter table comvende add CPF varchar(11);

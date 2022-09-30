@@ -75,3 +75,40 @@ primary key(n_numeivenda));
 alter table comforne add CNPJ varchar(14);
 
 alter table comvende add CPF varchar(11);
+
+
+
+insert into comclien
+(n_numeclien, c_codiclien, c_nomeclien, c_razaclien,
+d_dataclien, c_cnpjclien, c_foneclien)
+values("",124243,"carlos","none",12/49/2013,13242353,33554135);
+
+
+insert into comclien
+(n_numeclien, c_codiclien, c_nomeclien, c_razaclien,
+d_dataclien, c_cnpjclien, c_foneclien)
+values("",123424,"john","none",12/10/1999,13242389,33523135);
+
+insert into comclien
+(n_numeclien, c_codiclien, c_nomeclien, c_razaclien,
+d_dataclien, c_cnpjclien, c_foneclien)
+values("",1232664,"renan","none",12/49/1999,13242353,33554135);
+
+insert into comclien
+(n_numeclien, c_codiclien, c_nomeclien, c_razaclien,
+d_dataclien, c_cnpjclien, c_foneclien)
+values("",124243,"paulo","none",12/49/2003,13072353,22754135);
+
+insert into comclien
+(n_numeclien, c_codiclien, c_nomeclien, c_razaclien,
+d_dataclien, c_cnpjclien, c_foneclien)
+values("",4332154,"igor","none",12/49/2004,13242353,33554135);
+
+insert into comclien
+(n_numeclien, c_codiclien, c_nomeclien, c_razaclien,
+d_dataclien, c_cnpjclien, c_foneclien)
+values("",4312747,"wagner","none",10/10/2004,13242353,33554135);
+
+select * from comclien;
+
+delete from comclien where n_numeclien = '';

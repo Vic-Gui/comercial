@@ -2,7 +2,7 @@
 
 use comercial;
 
-mysql> create table comclien(
+ create table comclien(
 n_numeclien int not null auto_increment,
 c_codiclien varchar(10),
 c_nomeclien varchar(100),

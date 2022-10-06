@@ -12,7 +12,7 @@ c_cnpjclien varchar(20),
 c_foneclien varchar(20),
 primary key (n_numeclien));
 
-create table `comforne`(
+create table comforne(
 n_numeforne int not null auto_increment,
 c_codiforne varchar(10),
 c_nomeforne varchar(100),
@@ -20,7 +20,7 @@ c_razaforne varchar(100),
 c_foneforne varchar(20),
 primary key(n_numeforne));
 
-create table `comvende`( 
+create table comvende( 
 n_numevende int not null auto_increment,
 c_codivende varchar(10),
 c_nomevende varchar(100),

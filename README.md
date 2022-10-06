@@ -140,4 +140,4 @@ values("",4312747,"wagner","none",10/10/2004,13242353,33554135);
 
 select * from comclien;
 
-delete from comclien where n_numeclien = '';
+truncade comclien

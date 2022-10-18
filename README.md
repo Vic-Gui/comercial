@@ -96,13 +96,13 @@ on update no action;
 
 alter table comivenda add constraint fk_comivenda_comprodu
 foreign key(n_numeprodu)
-references comprodu (n_numeprodu)
+references comprodu(n_numeprodu)
 on delete no action
 on update no action;
 
 alter table comivenda add constraint fk_comivenda_comvenda
 foreign key(n_numevenda)
-references comvenda (n_numevenda)
+references comvenda(n_numevenda)
 on delete no action
 on update no action;
 

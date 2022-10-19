@@ -106,15 +106,15 @@ references comvenda(n_numevenda)
 on delete no action
 on update no action;
 
-alter table comvendas add constraint fk_comivenda_comvenda
-foreign key(n_numevenda)
-references comvenda(n_numevenda)
+alter table comvendas add constraint fk_comvenda_comvende
+foreign key(n_numevende)
+references comvende(n_numevende)
 on delete no action
 on update no action;
 
-alter table comvendas add constraint fk_comivenda_comvenda
+alter table comvendas add constraint fk_comvenda_comprodu
 foreign key(n_numeprodu)
-references comvenda(n_numevenda)
+references comprodu(n_numeprodu)
 on delete no action
 on update no action;
 

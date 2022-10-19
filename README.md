@@ -106,6 +106,18 @@ references comvenda(n_numevenda)
 on delete no action
 on update no action;
 
+alter table comvendas add constraint fk_comivenda_comvenda
+foreign key(n_numevenda)
+references comvenda(n_numevenda)
+on delete no action
+on update no action;
+
+alter table comvendas add constraint fk_comivenda_comvenda
+foreign key(n_numeprodu)
+references comvenda(n_numevenda)
+on delete no action
+on update no action;
+
 
 insert into comclien
 (n_numeclien, c_codiclien, c_nomeclien, c_razaclien,

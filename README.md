@@ -106,17 +106,7 @@ references comvenda(n_numevenda)
 on delete no action
 on update no action;
 
-alter table comvendas add constraint fk_comvenda_comvende
-foreign key(n_numevende)
-references comvende(n_numevende)
-on delete no action
-on update no action;
 
-alter table comvendas add constraint fk_comvenda_comprodu
-foreign key(n_numeprodu)
-references comprodu(n_numeprodu)
-on delete no action
-on update no action;
 
 
 insert into comclien
